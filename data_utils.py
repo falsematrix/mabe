@@ -33,6 +33,3 @@ def sleep(t=4000):
     import time
     time.sleep(t)
     
-
-def p():
-    print("done")
