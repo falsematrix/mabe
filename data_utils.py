@@ -32,3 +32,7 @@ def get_col_names(keyword):
 def sleep(t=4000):
     import time
     time.sleep(t)
+    
+
+def p():
+    print("done")
