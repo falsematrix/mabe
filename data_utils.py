@@ -1,4 +1,5 @@
 import os
+import time
 import random
 import pandas as pd
 
@@ -30,6 +31,5 @@ def get_col_names(keyword):
 
 
 def sleep(t=4000):
-    import time
     time.sleep(t)
     
