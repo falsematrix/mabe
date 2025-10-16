@@ -17,10 +17,6 @@ def get_paths(path):
     return [os.path.join(path, fn) for fn in file_names]
 
 
-def get_csv(path):
-    return pd.read_csv(path)
-
-
 def get_parqt(path):
     return pd.read_parquet(path)
 
