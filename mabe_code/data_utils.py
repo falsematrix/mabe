@@ -25,6 +25,7 @@ not_in_test_labs = [
     "CRIM13"
 ]
 
+
 def get_index(iterable):
     return random.randint(0, len(iterable) - 1)
 
