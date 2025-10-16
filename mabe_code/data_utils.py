@@ -4,6 +4,27 @@ import random
 import pandas as pd
 
 
+pretrain_labs = [
+    "MABe22_keypoints",
+    "MABe22_movies",
+]
+
+calcrim = [
+    "CalMS21_supplemental",
+    "CalMS21_task1",
+    "CalMS21_task2",
+    "CRIM13"
+]
+
+not_in_test_labs = [
+    "MABe22_keypoints",
+    "MABe22_movies",
+    "CalMS21_supplemental",
+    "CalMS21_task1",
+    "CalMS21_task2",
+    "CRIM13"
+]
+
 def get_index(iterable):
     return random.randint(0, len(iterable) - 1)
 
