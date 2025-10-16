@@ -39,10 +39,6 @@ def get_paths(path):
     return [os.path.join(path, fn) for fn in file_names]
 
 
-def get_parqt(path):
-    return pd.read_parquet(path)
-
-
 def get_col_names(keyword):
     cols_heads = ["mouse1", "mouse2", "mouse3", "mouse4"]
     return [c+keyword for c in cols_heads]
