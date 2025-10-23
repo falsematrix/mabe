@@ -4,7 +4,7 @@ import random
 import pandas as pd
 
 
-pretrain_labs = [
+mabe_labs = [
     "MABe22_keypoints",
     "MABe22_movies",
 ]
